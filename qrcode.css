@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Outfit&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: hsl(220, 15%, 55%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white {
+  background-color: white;
+  border: solid 15px white;
+  border-bottom: solid white 80px;
+  border-radius: 20px;
+}
+
+.font {
+  font-family: "Outfit";
+  font-size: 25px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+.img {
+  max-width: 300px;
+  border-radius: 15px;
+}
+
+.paragraph {
+  font-family: "Outfit";
+  text-align: center;
+  font-weight: 400;
+  color: hsl(212, 12%, 55%);
+  padding-top: 20px;
+  font-size: 15px;
+}
